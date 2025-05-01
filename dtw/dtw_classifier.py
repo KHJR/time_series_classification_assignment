@@ -22,6 +22,5 @@ class DtwClassifier:
                 distance = self.dtw.compute_dtw_distance(ref_seq, test_seq)
                 distances.append(distance)
             results.append(np.argmin(distances))
-            print(distances)
 
         return np.array(results)

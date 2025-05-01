@@ -34,9 +34,11 @@ class Main:
 
 if __name__ == '__main__':
     main_instance = Main()
-    #level = 1  # Change this to the desired level (1, 2, 3, or 4)
+    # level = 1  # Change this to the desired level (1, 2, 3, or 4)
 
     # Uncomment the following line to train the GRU model
-    #main_instance.train_gru(level)
+    # main_instance.train_gru(level)
 
     main_instance.classify_all_levels(mode='dtw')
+
+    # The code for visualizing the data is in the utils/visualizer.py file.

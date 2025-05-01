@@ -1,1 +1,1 @@
-The code for the newcomer assignment of time series classification. I haven't used docker or equivalent for this project, so when running the code, make sure to have imported libraries installed. Running the main file should give the result of the classification/.
+The code for the newcomer assignment of time series classification. I haven't used docker or equivalent for this project, so when running the code, make sure to have imported libraries installed. Running the main file should give the result of the classification.
